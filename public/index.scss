@@ -1,0 +1,23 @@
+$text-color: #004c7c;
+$button-color: white;
+$button-color-hover: lightgray;
+$text-font-family: "Comic Sans MS", sans-serif;
+h1 {
+  text-align: center;
+}
+body {
+  color: $text-color !important;
+  text-wrap: nowrap !important;
+  font-family: "Comic Sans MS", sans-serif !important;
+}
+.container-fluid {
+  button {
+    box-shadow: black 0 0 0;
+    background-color: $button-color;
+    transition: all 300ms ease-in-out;
+    &:hover {
+      box-shadow: black 0 0 10px;
+      background-color: $button-color-hover;
+    }
+  }
+}
